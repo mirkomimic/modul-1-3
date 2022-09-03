@@ -1,5 +1,6 @@
 body {
-  background-color: olive;
+  /* background-color: olive; */
+  background: linear-gradient(90deg, rgba(150, 255, 220, 1) 0%, rgba(142, 145, 196, 0.7425366620111732) 100%);
 }
 
 h1 {
