@@ -1,0 +1,45 @@
+$ git init 
+Initialized empty Git repository 
+
+$ ls - a
+da se prikaze .git
+
+$ git status
+On branch master
+No commits yet
+nothing to commit create/copy files and use "git add" to track
+
+$ touch index.html
+stvaranje fajla
+
+$ git status
+untracked files 
+nothing added to commit but untracked files present (use "git add" to track)
+
+$ git add index.html
+ubacivanje u stage
+
+git commit -m "create index.html"
+commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+$ git log
+history of commits
+
+$ gid add . 
+stage all, to be commited
+(use "git restore --staged <file>..." to unstage)
+
+$ git checkout 56df15cbf7bfe2cf6121b81829d8f7b8be8f0b09
+vrati se na stari commit
+
+$ git branch
+lista branch, prilikom koje se detachujemo od master
+
+$ git checkout master
+vrati se na master branch
+
+$ git branch <name>
+
+git merge crazycolors
+merge branches
