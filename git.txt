@@ -22,9 +22,16 @@ nothing added to commit but untracked files present (use "git add" to track)
 $ git add index.html
 ubacivanje u stage
 
-git commit -m "create index.html"
+$ git commit -m "create index.html"
 commit
  1 file changed, 0 insertions(+), 0 deletions(-)
+
+$ git commit --amend
+ako smo komitovali ali smo zaboravili neki fajla
+
+$ git reset HEAD <FAJL> ili
+  $git restore --staged <fajl>
+ukloniti fajlove sa stejdza
 
 $ git log
 history of commits
@@ -57,3 +64,6 @@ postavi remote
 git push -u origin master
 
 git pull origin master
+
+$ git clone [url]
+klonirati na drugoj lokaciji
