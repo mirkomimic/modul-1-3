@@ -43,3 +43,10 @@ $ git branch <name>
 
 git merge crazycolors
 merge branches
+
+-----------------------
+git remote -v
+lista remote
+
+git remote add origin https://github.com/mirkomimic/modul-1-3.git
+postavi remote
